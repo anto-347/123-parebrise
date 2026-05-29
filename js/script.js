@@ -44,8 +44,8 @@ function traitement_score()
 	let r2 = document.getElementsByName("q2");
 	for (let i = 0; i < r2.length; i++) {
 		if (r2[i].checked) {
-			console.log(r1[i].value);
-			if(r2[i].value == 5) {
+			console.log(r2[i].value);
+			if(r2[i].value == 1) {
 				score++;
 				q2.classList.add('bonne_reponse');
 			}
@@ -57,20 +57,20 @@ function traitement_score()
 	}
 
 	
-	let r3 = document.getElementsByName("q3");
-	for (let i = 0; i < r3.length; i++) {
-		if (r3[i].checked) {
-			console.log(r3[i].value);
-			if(r3[i].value == 7) {
-				score++;
-				q3.classList.add('bonne_reponse');
-			}
-			else {
-				q3.classList.add('mauvaise_reponse');
-			}
-			break;
-		}
-	}
+	// let r3 = document.getElementsByName("q3");
+	// for (let i = 0; i < r3.length; i++) {
+	// 	if (r3[i].checked) {
+	// 		console.log(r3[i].value);
+	// 		if(r3[i].value == 7) {
+	// 			score++;
+	// 			q3.classList.add('bonne_reponse');
+	// 		}
+	// 		else {
+	// 			q3.classList.add('mauvaise_reponse');
+	// 		}
+	// 		break;
+	// 	}
+	// }
 	
 	// Affichage du score
 	document.getElementById("score").style.color="blue";
