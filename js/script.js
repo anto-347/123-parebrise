@@ -35,5 +35,18 @@ function traitement_score()
 	// Affichage du score
 	document.getElementById("score").style.color="blue";
 	document.getElementById("score").innerHTML="Bonjour " + prenom + " " + nom + ", votre score est de : " + score + " / 1";
+	document.getElementById("q1").classList.add("hidden");
 }
+
+function question2() {
+	let score;
+	
+}
+
+
+
+
+
+
+
 
