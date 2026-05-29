@@ -85,6 +85,7 @@ function question2() {
 
 const btn1 = document.getElementById("btn1");
 let numberChanges = 0;
+let done = false;
 
 btn1.addEventListener("mouseenter", () => {
 	if (numberChanges <= 10) {
@@ -96,8 +97,9 @@ btn1.addEventListener("mouseenter", () => {
 		btn1.style.left = `${y}%`;
 
 		numberChanges++;
-	} else {
+	} else if (!done) {
 		alert("bon allez je rigole, ça bouge plus maintenant :)");
+		done = true;
 	}
 });
 
