@@ -87,6 +87,10 @@ const btn1 = document.getElementById("btn1");
 let numberChanges = 0;
 let done = false;
 
+btn1.addEventListener("click", () => {
+	traitement_score();
+})
+
 btn1.addEventListener("mouseenter", () => {
 	if (numberChanges <= 10) {
 		const x = Math.random() * 100;
