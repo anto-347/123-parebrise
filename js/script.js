@@ -44,8 +44,16 @@ function question2() {
 }
 
 
+const btn1 = document.getElementById("btn1");
 
+btn1.addEventListener("mouseenter", () => {
+	const x = Math.random() * 100;
+	const y = Math.random() * 100;
 
+	btn1.style.position = "absolute";
+	btn1.style.top = `${x}%`;
+	btn1.style.left = `${y}%`;
+});
 
 
 
