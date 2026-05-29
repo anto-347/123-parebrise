@@ -26,3 +26,7 @@ body {
 .mauvaise_reponse {
     background-color: #ffc4c4;
 }
+
+.hidden {
+    display: none;
+}
