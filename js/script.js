@@ -144,11 +144,6 @@ function traitement_score()
 	document.getElementById("resultat").innerText = sentence;
 }
 
-function question2() {
-	let score;
-	
-}
-
 
 const btn1 = document.getElementById("btn1");
 let numberChanges = 0;
@@ -173,7 +168,3 @@ btn1.addEventListener("mouseenter", () => {
 		done = true;
 	}
 });
-
-
-
-
