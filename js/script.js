@@ -137,6 +137,7 @@ function traitement_score()
 		sentence = "les résultats sont mitigés... on vous prend que si vous êtes vraiment motivé";
 	} else {
 		sentence = "Bravo ! vous êtes pris par le NYPD !!";
+	}
 	
 	// Affichage du score
 	document.getElementById("score").style.color="blue";
