@@ -141,7 +141,7 @@ function traitement_score()
 	
 	// Affichage du score
 	document.getElementById("score").style.color="blue";
-	document.getElementById("score").innerHTML="Bonjour " + prenom + " " + nom + ", votre score est de : " + score + " / 3";
+	document.getElementById("score").innerHTML="Bonjour " + prenom + " " + nom + ", votre score est de : " + score;
 	document.getElementById("resultat").innerText = sentence;
 }
 
@@ -160,8 +160,8 @@ btn1.addEventListener("mouseenter", () => {
 		const y = Math.random() * 100;
 
 		btn1.style.position = "absolute";
-		btn1.style.top = `${x}%`;
-		btn1.style.left = `${y}%`;
+		btn1.style.left = `${x}%`;
+		btn1.style.top = `${y}%`;
 
 		numberChanges++;
 	} else if (!done) {
