@@ -42,7 +42,7 @@ function traitement_score()
 	for (let i = 0; i < r1.length; i++) {
 		if (r1[i].checked) {
 			console.log(r1[i].value);
-			if(r1[i].value == 7) {
+			if(r1[i].value == 1) {
 				score++;
 				q1.classList.add('bonne_reponse');
 			}
@@ -73,7 +73,7 @@ function traitement_score()
 	for (let i = 0; i < r3.length; i++) {
 		if (r3[i].checked) {
 			console.log(r3[i].value);
-			if(r3[i].value == 7) {
+			if(r3[i].value == 1) {
 				score++;
 				q3.classList.add('bonne_reponse');
 			}
@@ -88,7 +88,7 @@ function traitement_score()
 	for (let i = 0; i < r4.length; i++) {
 		if (r4[i].checked) {
 			console.log(r4[i].value);
-			if(r4[i].value == 7) {
+			if(r4[i].value == 5) {
 				score++;
 				q4.classList.add('bonne_reponse');
 			}
