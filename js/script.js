@@ -21,9 +21,9 @@ function traitement_score()
 	q2.classList.remove('bonne_reponse');
 	q2.classList.remove('mauvaise_reponse');
 
-	let q3 = document.getElementById("q3")
-	q3.classList.remove('bonne_reponse');
-	q3.classList.remove('mauvaise_reponse');
+	// let q3 = document.getElementById("q3")
+	// q3.classList.remove('bonne_reponse');
+	// q3.classList.remove('mauvaise_reponse');
 	
 	// Vérification des cases à cocher
 	var r1 = document.getElementsByName("q1");
